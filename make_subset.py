@@ -150,8 +150,8 @@ if __name__ == "__main__":
 
 
 # python make_subset.py \
-#   --coco-json DeepFasion2/train_coco.json \
-#   --images-dir DeepFasion2/train/image \
-#   --out-dir subset_500 \
-#   --n-images 500 \
+#   --coco-json DeepFashion2/train_coco.json \
+#   --images-dir DeepFashion2/train/image \
+#   --out-dir subset_5000_v2 \
+#   --n-images 5000 \
 #   --seed 42

@@ -6,6 +6,8 @@ from typing import Dict, List, Any
 from PIL import Image
 from tqdm import tqdm
 
+# Filter by Source: "Consumer" or "Shop"
+FILTER_SOURCE = "shop"
 
 # ---------- Category mapping ----------
 
@@ -69,6 +71,12 @@ def convert_split_to_coco(split_root: Path, out_json: Path) -> None:
     for jf in tqdm(json_files, desc=f"Converting {split_root.name}"):
         with jf.open("r") as f:
             data = json.load(f)
+        
+        # DeepFashion2 annotation JSONs have a top-level "source" key: "shop" or "user".
+        if FILTER_SOURCE is not None:
+            if data.get("source") != FILTER_SOURCE:
+                # skip this image completely
+                continue
 
         stem = jf.stem  # e.g., "000001"
         img_name_jpg = stem + ".jpg"
