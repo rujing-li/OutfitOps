@@ -215,5 +215,7 @@ if __name__ == "__main__":
     convert_deepfashion2(args.root, splits=args.splits)
 
 # python deepfashion2_to_coco.py \
-#   --root DeepFashion2 \
+#   --root 'DeepFashion2' \
 #   --splits train val
+
+# python deepfashion2_to_coco.py --root "C:\Users\eliza\Downloads\train" --splits train

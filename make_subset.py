@@ -149,9 +149,10 @@ if __name__ == "__main__":
     main()
 
 
-# python make_subset.py \
-#   --coco-json DeepFasion2/train_coco.json \
+# python make_subset.py --coco-json DeepFasion2/train_coco.json \
 #   --images-dir DeepFasion2/train/image \
-#   --out-dir subset_500 \
-#   --n-images 500 \
+#   --out-dir subset_5000 \
+#   --n-images 5000 \
 #   --seed 42
+
+# python make_subset.py --coco-json "C:\Users\eliza\Downloads\train\train_coco.json" --images-dir "C:\Users\eliza\Downloads\train\train\image" --out-dir "C:\Users\eliza\Downloads\df2_subset_5000" --n-images 5000 --seed 42
