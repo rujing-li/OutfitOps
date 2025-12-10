@@ -1,0 +1,2 @@
+run,freeze,epochs,batch,lr0,final_train_loss,val_loss,val_acc,ckpt_path
+f0_e20_b8_lr0.0005,0,20,8,0.0005,0.692575708424652,0.6909826137517628,0.5440789473684211,/content/data/polyvore_subset_5000/compat_exps/f0_e20_b8_lr0.0005/compat_model_polyvore.pth

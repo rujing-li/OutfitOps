@@ -1,0 +1,2 @@
+run,freeze,epochs,batch,lr0,best_map50_95,run_dir,csv_path,best_weights
+f10_e40_b4_lr0.001,10,40,4,0.001,0.46688,/content/data/df2_yolo_exps/f10_e40_b4_lr0.001,/content/data/df2_yolo_exps/f10_e40_b4_lr0.001/results.csv,/content/drive/MyDrive/DL4CVProject/yolo-5000-weights/f10_e40_b4_lr0.001_best.pt

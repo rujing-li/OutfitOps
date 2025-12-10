@@ -1,0 +1,2 @@
+run,best_epoch,freeze,epochs_planned,batch,lr0,best_train_loss,best_val_loss,best_val_acc,ckpt_path_drive
+resnet50_f0_e20_b4_lr0.0005,7,0,20,4,0.0005,0.6933333359413094,0.6922726386471798,0.48947368421052634,/content/drive/MyDrive/DL4CVProject/resnet50-experiments-weights/resnet50_f0_e20_b4_lr0.0005_best_epoch7_compat_model_polyvore.pth

@@ -1,0 +1,1 @@
+/content/drive/MyDrive/DL4CVProject/yolo-5000-weights/f10_e40_b4_lr0.001_best.pt

@@ -1,0 +1,1 @@
+/content/drive/MyDrive/DL4CVProject/resnet18-experiments-weights/f0_e20_b4_lr0.0005_compat_model_polyvore.pth
